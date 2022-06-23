@@ -59,5 +59,5 @@ return [
     | Automatically register all the bots we provide.
     |--------------------------------------------------------------------------
     */
-    'auto_register_all' => env('BOT_AUTO_REGISTER_ALL', false),
+    'auto_register_all' => env('BOT_AUTO_REGISTER_ALL', true),
 ];
